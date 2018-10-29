@@ -73,4 +73,4 @@
    (select Prod_id from prod_dimen where Product_Sub_Category like '%TABLE%') 
    group by t2.Region order by `profit_in_each_region` DESC;
    
-   
+   ##
